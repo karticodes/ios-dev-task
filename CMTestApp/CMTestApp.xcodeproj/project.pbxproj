@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47FD59F91CB7A27800819EA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FD59F81CB7A27800819EA9 /* AppDelegate.swift */; };
+		47FD59FE1CB7A27800819EA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47FD59FC1CB7A27800819EA9 /* Main.storyboard */; };
+		47FD5A011CB7A27800819EA9 /* CMTestApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47FD59FF1CB7A27800819EA9 /* CMTestApp.xcdatamodeld */; };
+		47FD5A031CB7A27800819EA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47FD5A021CB7A27800819EA9 /* Assets.xcassets */; };
+		47FD5A061CB7A27800819EA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47FD5A041CB7A27800819EA9 /* LaunchScreen.storyboard */; };
+		47FD5A0F1CB7A44000819EA9 /* CMServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FD5A0E1CB7A44000819EA9 /* CMServiceManager.swift */; };
+		47FD5A111CB7A6B600819EA9 /* CMErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FD5A101CB7A6B600819EA9 /* CMErrorManager.swift */; };
+		47FD5A151CB7A86D00819EA9 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FD5A131CB7A86D00819EA9 /* Extension.swift */; };
+		47FD5A161CB7A86D00819EA9 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FD5A141CB7A86D00819EA9 /* Utility.swift */; };
+		47FD5A181CB7ABF400819EA9 /* CMServiceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FD5A171CB7ABF400819EA9 /* CMServiceList.swift */; };
+		47FD5A1A1CB7D92E00819EA9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47FD5A191CB7D92E00819EA9 /* CoreData.framework */; };
+		47FD5A1D1CB7DDEB00819EA9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FD5A1C1CB7DDEB00819EA9 /* BaseViewController.swift */; };
+		47FD5A231CB7DFA100819EA9 /* CMInboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FD5A221CB7DFA100819EA9 /* CMInboxViewController.swift */; };
+		47FD5A281CB7EEC600819EA9 /* InboxMailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FD5A261CB7EEC600819EA9 /* InboxMailTableViewCell.swift */; };
+		47FD5A291CB7EEC600819EA9 /* InboxMailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47FD5A271CB7EEC600819EA9 /* InboxMailTableViewCell.xib */; };
+		47FD5A2C1CB8245900819EA9 /* MailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FD5A2B1CB8245900819EA9 /* MailModel.swift */; };
+		47FD5A2F1CB93F4700819EA9 /* MailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FD5A2E1CB93F4700819EA9 /* MailViewController.swift */; };
+		47FD5A321CB94B9300819EA9 /* MailDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FD5A311CB94B9300819EA9 /* MailDetailModel.swift */; };
+		47FD5A351CB97D2A00819EA9 /* CircularIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FD5A341CB97D2A00819EA9 /* CircularIndicatorView.swift */; };
+		5EADC1E41FCACF3B6560E419 /* Pods_CMTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A891E65D058FD29CC4DDA78 /* Pods_CMTestApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20FC7DAAE6D0BCE0A89D0ABB /* Pods-CMTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMTestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CMTestApp/Pods-CMTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		233C7140FCB6C81CA75C008A /* Pods-CMTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMTestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CMTestApp/Pods-CMTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		47FD59F51CB7A27800819EA9 /* CMTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47FD59F81CB7A27800819EA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47FD59FD1CB7A27800819EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47FD5A001CB7A27800819EA9 /* CMTestApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CMTestApp.xcdatamodel; sourceTree = "<group>"; };
+		47FD5A021CB7A27800819EA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47FD5A051CB7A27800819EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47FD5A071CB7A27800819EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47FD5A0E1CB7A44000819EA9 /* CMServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CMServiceManager.swift; path = Service/CMServiceManager.swift; sourceTree = "<group>"; };
+		47FD5A101CB7A6B600819EA9 /* CMErrorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CMErrorManager.swift; path = Service/CMErrorManager.swift; sourceTree = "<group>"; };
+		47FD5A131CB7A86D00819EA9 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extension.swift; path = Utility/Extension.swift; sourceTree = "<group>"; };
+		47FD5A141CB7A86D00819EA9 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utility.swift; path = Utility/Utility.swift; sourceTree = "<group>"; };
+		47FD5A171CB7ABF400819EA9 /* CMServiceList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CMServiceList.swift; path = Service/CMServiceList.swift; sourceTree = "<group>"; };
+		47FD5A191CB7D92E00819EA9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		47FD5A1C1CB7DDEB00819EA9 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = Base/BaseViewController.swift; sourceTree = "<group>"; };
+		47FD5A221CB7DFA100819EA9 /* CMInboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CMInboxViewController.swift; path = Screens/Inbox/CMInboxViewController.swift; sourceTree = "<group>"; };
+		47FD5A261CB7EEC600819EA9 /* InboxMailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InboxMailTableViewCell.swift; path = Screens/Inbox/Views/InboxMailCell/InboxMailTableViewCell.swift; sourceTree = "<group>"; };
+		47FD5A271CB7EEC600819EA9 /* InboxMailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InboxMailTableViewCell.xib; path = Screens/Inbox/Views/InboxMailCell/InboxMailTableViewCell.xib; sourceTree = "<group>"; };
+		47FD5A2B1CB8245900819EA9 /* MailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MailModel.swift; path = Screens/Inbox/Model/MailModel.swift; sourceTree = "<group>"; };
+		47FD5A2E1CB93F4700819EA9 /* MailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MailViewController.swift; path = Screens/Mail/MailViewController.swift; sourceTree = "<group>"; };
+		47FD5A311CB94B9300819EA9 /* MailDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MailDetailModel.swift; path = Screens/Mail/Model/MailDetailModel.swift; sourceTree = "<group>"; };
+		47FD5A341CB97D2A00819EA9 /* CircularIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircularIndicatorView.swift; path = Custom/CircularIndicatorView.swift; sourceTree = "<group>"; };
+		4A891E65D058FD29CC4DDA78 /* Pods_CMTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CMTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47FD59F21CB7A27800819EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FD5A1A1CB7D92E00819EA9 /* CoreData.framework in Frameworks */,
+				5EADC1E41FCACF3B6560E419 /* Pods_CMTestApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47FD59EC1CB7A27800819EA9 = {
+			isa = PBXGroup;
+			children = (
+				47FD59F71CB7A27800819EA9 /* CMTestApp */,
+				47FD59F61CB7A27800819EA9 /* Products */,
+				B2C3F0B24370C38B56A49AA9 /* Pods */,
+				4E31EC11C6B1130D496C68D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		47FD59F61CB7A27800819EA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47FD59F51CB7A27800819EA9 /* CMTestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47FD59F71CB7A27800819EA9 /* CMTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				47FD5A331CB97C5700819EA9 /* Custom */,
+				47FD5A1E1CB7DF6700819EA9 /* Screens */,
+				47FD5A1B1CB7DD7200819EA9 /* Base */,
+				47FD5A121CB7A80400819EA9 /* Utility */,
+				47FD5A0D1CB7A33200819EA9 /* Service */,
+				47FD59F81CB7A27800819EA9 /* AppDelegate.swift */,
+				47FD59FC1CB7A27800819EA9 /* Main.storyboard */,
+				47FD5A021CB7A27800819EA9 /* Assets.xcassets */,
+				47FD5A041CB7A27800819EA9 /* LaunchScreen.storyboard */,
+				47FD5A071CB7A27800819EA9 /* Info.plist */,
+				47FD59FF1CB7A27800819EA9 /* CMTestApp.xcdatamodeld */,
+			);
+			path = CMTestApp;
+			sourceTree = "<group>";
+		};
+		47FD5A0D1CB7A33200819EA9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				47FD5A0E1CB7A44000819EA9 /* CMServiceManager.swift */,
+				47FD5A101CB7A6B600819EA9 /* CMErrorManager.swift */,
+				47FD5A171CB7ABF400819EA9 /* CMServiceList.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		47FD5A121CB7A80400819EA9 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				47FD5A131CB7A86D00819EA9 /* Extension.swift */,
+				47FD5A141CB7A86D00819EA9 /* Utility.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		47FD5A1B1CB7DD7200819EA9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				47FD5A1C1CB7DDEB00819EA9 /* BaseViewController.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		47FD5A1E1CB7DF6700819EA9 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				47FD5A2D1CB93F3300819EA9 /* Mail */,
+				47FD5A1F1CB7DF7100819EA9 /* Inbox */,
+			);
+			name = Screens;
+			sourceTree = "<group>";
+		};
+		47FD5A1F1CB7DF7100819EA9 /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				47FD5A2A1CB8243000819EA9 /* Model */,
+				47FD5A241CB7EE9200819EA9 /* Views */,
+				47FD5A221CB7DFA100819EA9 /* CMInboxViewController.swift */,
+			);
+			name = Inbox;
+			sourceTree = "<group>";
+		};
+		47FD5A241CB7EE9200819EA9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				47FD5A251CB7EE9700819EA9 /* InboxMailCell */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		47FD5A251CB7EE9700819EA9 /* InboxMailCell */ = {
+			isa = PBXGroup;
+			children = (
+				47FD5A261CB7EEC600819EA9 /* InboxMailTableViewCell.swift */,
+				47FD5A271CB7EEC600819EA9 /* InboxMailTableViewCell.xib */,
+			);
+			name = InboxMailCell;
+			sourceTree = "<group>";
+		};
+		47FD5A2A1CB8243000819EA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				47FD5A2B1CB8245900819EA9 /* MailModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		47FD5A2D1CB93F3300819EA9 /* Mail */ = {
+			isa = PBXGroup;
+			children = (
+				47FD5A301CB94B7100819EA9 /* Model */,
+				47FD5A2E1CB93F4700819EA9 /* MailViewController.swift */,
+			);
+			name = Mail;
+			sourceTree = "<group>";
+		};
+		47FD5A301CB94B7100819EA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				47FD5A311CB94B9300819EA9 /* MailDetailModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		47FD5A331CB97C5700819EA9 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				47FD5A341CB97D2A00819EA9 /* CircularIndicatorView.swift */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+		4E31EC11C6B1130D496C68D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47FD5A191CB7D92E00819EA9 /* CoreData.framework */,
+				4A891E65D058FD29CC4DDA78 /* Pods_CMTestApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2C3F0B24370C38B56A49AA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20FC7DAAE6D0BCE0A89D0ABB /* Pods-CMTestApp.debug.xcconfig */,
+				233C7140FCB6C81CA75C008A /* Pods-CMTestApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47FD59F41CB7A27800819EA9 /* CMTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47FD5A0A1CB7A27800819EA9 /* Build configuration list for PBXNativeTarget "CMTestApp" */;
+			buildPhases = (
+				0F20563149437CD7C4F55050 /* Check Pods Manifest.lock */,
+				47FD59F11CB7A27800819EA9 /* Sources */,
+				47FD59F21CB7A27800819EA9 /* Frameworks */,
+				47FD59F31CB7A27800819EA9 /* Resources */,
+				E792BC4AE74F1FB92C2E74BA /* Embed Pods Frameworks */,
+				F18E8880A96373E57B355F83 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMTestApp;
+			productName = CMTestApp;
+			productReference = 47FD59F51CB7A27800819EA9 /* CMTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47FD59ED1CB7A27800819EA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = KartiCodes;
+				TargetAttributes = {
+					47FD59F41CB7A27800819EA9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 47FD59F01CB7A27800819EA9 /* Build configuration list for PBXProject "CMTestApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47FD59EC1CB7A27800819EA9;
+			productRefGroup = 47FD59F61CB7A27800819EA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47FD59F41CB7A27800819EA9 /* CMTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47FD59F31CB7A27800819EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FD5A061CB7A27800819EA9 /* LaunchScreen.storyboard in Resources */,
+				47FD5A291CB7EEC600819EA9 /* InboxMailTableViewCell.xib in Resources */,
+				47FD5A031CB7A27800819EA9 /* Assets.xcassets in Resources */,
+				47FD59FE1CB7A27800819EA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F20563149437CD7C4F55050 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E792BC4AE74F1FB92C2E74BA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CMTestApp/Pods-CMTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F18E8880A96373E57B355F83 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CMTestApp/Pods-CMTestApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47FD59F11CB7A27800819EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FD5A161CB7A86D00819EA9 /* Utility.swift in Sources */,
+				47FD5A111CB7A6B600819EA9 /* CMErrorManager.swift in Sources */,
+				47FD5A181CB7ABF400819EA9 /* CMServiceList.swift in Sources */,
+				47FD5A0F1CB7A44000819EA9 /* CMServiceManager.swift in Sources */,
+				47FD5A1D1CB7DDEB00819EA9 /* BaseViewController.swift in Sources */,
+				47FD5A2F1CB93F4700819EA9 /* MailViewController.swift in Sources */,
+				47FD5A151CB7A86D00819EA9 /* Extension.swift in Sources */,
+				47FD5A351CB97D2A00819EA9 /* CircularIndicatorView.swift in Sources */,
+				47FD5A321CB94B9300819EA9 /* MailDetailModel.swift in Sources */,
+				47FD5A011CB7A27800819EA9 /* CMTestApp.xcdatamodeld in Sources */,
+				47FD5A281CB7EEC600819EA9 /* InboxMailTableViewCell.swift in Sources */,
+				47FD5A231CB7DFA100819EA9 /* CMInboxViewController.swift in Sources */,
+				47FD5A2C1CB8245900819EA9 /* MailModel.swift in Sources */,
+				47FD59F91CB7A27800819EA9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47FD59FC1CB7A27800819EA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47FD59FD1CB7A27800819EA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47FD5A041CB7A27800819EA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47FD5A051CB7A27800819EA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47FD5A081CB7A27800819EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47FD5A091CB7A27800819EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47FD5A0B1CB7A27800819EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20FC7DAAE6D0BCE0A89D0ABB /* Pods-CMTestApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CMTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karticodes.CMTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47FD5A0C1CB7A27800819EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 233C7140FCB6C81CA75C008A /* Pods-CMTestApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CMTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karticodes.CMTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47FD59F01CB7A27800819EA9 /* Build configuration list for PBXProject "CMTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47FD5A081CB7A27800819EA9 /* Debug */,
+				47FD5A091CB7A27800819EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47FD5A0A1CB7A27800819EA9 /* Build configuration list for PBXNativeTarget "CMTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47FD5A0B1CB7A27800819EA9 /* Debug */,
+				47FD5A0C1CB7A27800819EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		47FD59FF1CB7A27800819EA9 /* CMTestApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				47FD5A001CB7A27800819EA9 /* CMTestApp.xcdatamodel */,
+			);
+			currentVersion = 47FD5A001CB7A27800819EA9 /* CMTestApp.xcdatamodel */;
+			path = CMTestApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 47FD59ED1CB7A27800819EA9 /* Project object */;
+}

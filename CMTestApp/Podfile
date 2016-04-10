@@ -1,0 +1,14 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'CMTestApp' do
+
+pod 'Alamofire', '~> 3.0'
+pod 'ObjectMapper', '~> 1.0'
+pod 'ReachabilitySwift', git: 'https://github.com/ashleymills/Reachability.swift'
+pod 'JGProgressHUD'
+pod 'MGSwipeTableCell'
+pod 'AFDateHelper'
+
+end
+
